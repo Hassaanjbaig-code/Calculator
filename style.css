@@ -20,6 +20,7 @@ body {
         margin-left: 11vh;
         margin-top: 40px;
         border: 2px solid;
+        font-size: 59px;
 }
 hr{
     color: white;
@@ -39,5 +40,13 @@ ul{
         padding: 22px 50px 22px 50px;
         background-color: #f4f4ff;
         border: 10px solid grey;
+        background: linear-gradient(45deg, rgba(2,0,36,1) 0%, grey 35%, rgba(255,255,255,1) 100%);
         margin-left: 3px;
     }
+li:hover{
+    font-size: 3vw;
+    
+}
+.C {
+ padding:  22px 9px 22px 4px;   
+}

@@ -1,44 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- screen -->
     <div class="calculator">
-        <div class="screen"></div> 
-        <hr>
-        <!-- Button  -->
-        <div class="layoutbutton1">
-            <ul>
-                <li class="button">7</li>
-                <li class="button">8</li>
-                <li class="button">9</li>
-                <li class="button">*</li>
-            </ul>
-            <ul>
-                <li class="button">4</li>
-                <li class="button">5</li>
-                <li class="button">6</li>
-                <li class="button">-</li>
-            </ul>
-            <ul>
-                <li class="button">1</li>
-                <li class="button">2</li>
-                <li class="button">3</li>
-                <li class="button">+</li>
-            </ul>
-            <ul>
-                <li class="button">.</li>
-                <li class="button">0</li>
-                <li class="button">/</li>
-                <li class="button">=</li>
-            </ul>
-        </div>
+      <!-- <div class="screen"> -->
+        <input type="text" name="screen" class="screen" id="screen">
+      <!-- </div> -->
+      <hr />
+      <!-- Button  -->
+      <div class="layoutbutton1">
+        <ul>
+          <li class="button" id="button">7</li>
+          <li class="button" id="button">8</li>
+          <li class="button" id="button">9</li>
+          <li class="button" id="button">*</li>
+          <li class="button C" id="button">C</li>
+        </ul>
+        <ul>
+          <li class="button" id="button">4</li>
+          <li class="button" id="button">5</li>
+          <li class="button" id="button">6</li>
+          <li class="button" id="button">-</li>
+        </ul>
+        <ul>
+          <li class="button" id="button">1</li>
+          <li class="button" id="button">2</li>
+          <li class="button" id="button">3</li>
+          <li class="button" id="button">+</li>
+        </ul>
+        <ul>
+          <li class="button" id="button">.</li>
+          <li class="button" id="button">0</li>
+          <li class="button" id="button">/</li>
+          <li class="button" id="button">=</li>
+        </ul>
+      </div>
     </div>
-</body>
+    <script src="index.js">
+    </script>
+  </body>
 </html>
